@@ -1,5 +1,5 @@
-import * as bcrypt from 'bcrypt';
-import { Task } from 'src/tasks/task.entity';
+import * as bcrypt from 'bcryptjs';
+import { Task } from '../tasks/task.entity';
 import {
   BaseEntity,
   Column,
